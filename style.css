@@ -59,6 +59,19 @@ button{
     color: #fff;
     font-weight: 400;
 }
+.password-area{
+    margin: 10px 0;
+    background-color: rgb(101, 4, 51);
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap:1em;
+}
+.password-area:has(textarea){
+    display: flex;
+}
 button:hover{
     background-color: rgba(26, 54, 194, 0.8);
 
@@ -67,13 +80,27 @@ button:hover{
     background-color: green;
 }
 .pass{
-    background-color: rgba(0, 0, 255, 0.594);
-    margin: 10px 0;
-    padding: 0.3em;
+    background-color: rgba(112, 112, 239, 0.594);
     border-radius:5px;
-    overflow: auto;
+    text-align: center;
 }
 .default-pass-area{
     margin: 10px 0;
-    background-color: violet;
+    background-color: rgb(91, 6, 91);
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 1rem;
+}
+.default-pass-area:has(textarea){
+    display: flex;
+}
+textarea{
+    color: #fff;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    resize: none;
 }
