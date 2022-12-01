@@ -1,3 +1,79 @@
 *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+transition: all 300ms ease;
+}
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right , #040303, #009);
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+.container{
+    max-width: 600px;
+    width: 60%;
+    min-width: 300px;
+    background-color: crimson;
+ 
+    border-radius: 0.4em;
+    box-shadow: 10px 5px 30px rgba(0,0,0,0.7),-10px -5px 30px rgba(9, 44, 183, 0.735);
+}
+.box{
+    padding:10px 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-shadow:inset 0 -2px 0  #fff;
+}
+.text{
+    margin:auto;
+}
+.form-area{
+    margin: 10px 0;
+    width: 100%;
+}
+.input-box input{
+ width: 100%;
+ border-radius: 4rem;
+ outline:none ;
+ border: none;
+ padding: 10px;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;
+}
+button{
+    display: inline-block;
+    margin: 1em 0;
+    padding:8px 0;
+    border-radius: 4rem;
+    border: none;
+    background-color: rgba(228, 129, 129, 0.4);
+    color: #fff;
+    font-weight: 400;
+}
+button:hover{
+    background-color: rgba(26, 54, 194, 0.8);
 
+}
+.active{
+    background-color: green;
+}
+.pass{
+    background-color: rgba(0, 0, 255, 0.594);
+    margin: 10px 0;
+    padding: 0.3em;
+    border-radius:5px;
+    overflow: auto;
+}
+.default-pass-area{
+    margin: 10px 0;
+    background-color: violet;
 }

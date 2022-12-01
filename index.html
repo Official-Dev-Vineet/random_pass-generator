@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
@@ -13,24 +13,39 @@
           <div class="image">
             <img
               src="https://webstockreview.net/images/lock-clipart-lock-chain-11.png"
-              alt="password-generator" height="20" width="20"
+              alt="password-generator"
+              height="20"
+              width="20"
             />
           </div>
           <div class="text">Random password generator</div>
         </div>
         <div class="form-area">
-            <div class="input-box">
-                <input type="number" placeholder="enter password length" id="number">
-            </div>
-            <div class="button">
-                <button>Generate password</button>
-                <button>Clear Password</button>
-            </div>
-            <div class="password-area">
-                <div class="pass"></div>
-            </div>
+            <form>
+          <div class="input-box">
+            <input
+              type="number"
+              placeholder="enter password length"
+              id="number"
+              min="6"
+              max="24"
+              pattern="6-24"
+            />
+          </div>
+          <div class="button">
+            <button type='submit' class="generate">Generate password</button>
+            <button type='reset' class="clear">Clear Password</button>
+          </div>
+          </form>
+        </div>
+        <div class="password-area">
+        </div>
+        <div class="default-pass-area">
+
         </div>
       </div>
     </div>
+    <script src="app.js">
+    </script>
   </body>
 </html>
