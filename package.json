@@ -1,0 +1,24 @@
+{
+  "name": "random_pass-generator",
+  "version": "1.0.0",
+  "description": "random password generator by using html,css,javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Official-Dev-Vineet/random_pass-generator.git"
+  },
+  "keywords": [
+    "random",
+    "passwprd",
+    "generator"
+  ],
+  "author": "vineet singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Official-Dev-Vineet/random_pass-generator/issues"
+  },
+  "homepage": "https://github.com/Official-Dev-Vineet/random_pass-generator#readme"
+}
