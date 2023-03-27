@@ -37,6 +37,9 @@ body{
     margin: 10px 0;
     width: 100%;
 }
+.input-box{
+    margin-bottom: 1rem;
+}
 .input-box input{
  width: 100%;
  border-radius: 4rem;
@@ -101,6 +104,6 @@ textarea{
     color: #fff;
     font-size: 16px;
     width: auto;
-    height: auto;
+    height:60px;
     resize: none;
 }
