@@ -36,8 +36,8 @@ form.addEventListener("submit", (e) => {
     }
 });
 function getItems(){
-   let pass=localStorage.getItem('password').split(',');
-   pass.map((value,index)=>{
+   let pass=localStorage?.getItem('password')?.split(',');
+   pass?.map((value,index)=>{
     let textarea=document.createElement('textarea')
     textarea.classList.add('pass');
     textarea.value=value;
@@ -46,7 +46,7 @@ function getItems(){
 }
 getItems();
 clear.addEventListener('click',()=>{
-    localStorage.clear();
+    localStorage?.clear();
     getItems();
 })
 document.querySelectorAll('textarea').forEach((area)=>{
