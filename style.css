@@ -17,7 +17,8 @@ body{
     width: 60%;
     min-width: 300px;
     background-color: crimson;
- 
+    height:100vh;
+    overflow:auto;
     border-radius: 0.4em;
     box-shadow: 10px 5px 30px rgba(0,0,0,0.7),-10px -5px 30px rgba(9, 44, 183, 0.735);
 }
