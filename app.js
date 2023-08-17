@@ -47,7 +47,7 @@ function getItems(){
 getItems();
 clear.addEventListener('click',()=>{
     localStorage?.clear();
-    getItems();
+passArea.textContent=""
 })
 document.querySelectorAll('textarea').forEach((area)=>{
     area.addEventListener('mouseover',()=>{
